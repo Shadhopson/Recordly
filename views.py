@@ -19,6 +19,9 @@ def favorite():
     else:
         return render_template("favorite.html") 
 
+@app.route('/addmusic')
+def addmusic():
+    return render_template("addmusic.html")
 @app.route('/about')
 def about():
     return render_template("about.html")
